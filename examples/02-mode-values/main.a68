@@ -1,0 +1,28 @@
+
+# This is a comment #
+
+
+# This is 
+a multiline comment #
+
+
+#
+And another multiline
+comment
+#
+
+
+# A mode is a like a type (REAL, INT, BOOL) #
+# Here the constant 3.14 is called a denotation. #
+
+REAL pi = 3.14;
+INT a = 15;
+
+# printf 13a means 13 ascii characters #
+printf(($13a$, "Value of pi: "));
+
+# g means the variable, l means newline. #
+printf (($gl$, pi));
+
+# g can print any mode #
+printf (($gl$, a))

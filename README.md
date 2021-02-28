@@ -1,6 +1,6 @@
 # Algol Tutorial
 
-Tutorial for ALGOL 68. We use the Algol 68 Genie compiler.
+Tutorial for ALGOL 68 (ALGOrithmic Language). We use the Algol 68 Genie compiler.
 
 All the examples are located in the `examples` directory.
 
@@ -24,7 +24,7 @@ $> a68g hello.a68
 Hello World!!!
 ```
 
-## Official Documentation
+## Bibliography
 
 - https://jmvdveer.home.xs4all.nl/learning-algol-68-genie.pdf
 
