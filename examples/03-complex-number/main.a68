@@ -1,0 +1,5 @@
+# We define a complexe structure with STRUCT keyword #
+# Here we have an object with property mark and point. Point is also a structure with members x and y. #
+
+STRUCT(CHAR mark, STRUCT(REAL x, y) point) mypoint := ("O", (2, 3));
+print((mypoint, new line))
