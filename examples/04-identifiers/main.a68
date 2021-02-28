@@ -2,10 +2,19 @@
 
 BOOL is it true = TRUE;
 
-print (("Is it true ???", new line, isit true));
+print (("Is it true ???", new line, isit true, new line));
 
 # I am shocked ;o)))) #
 
 
 # Here is a predefined identifer: maxint #
-print (("Max Integer: ", maxint, " ", max int, " ", m a x     i n t))
+print (("Max Integer: ", maxint, " ", max int, " ", m a x     i n t, newline));
+print (("Long Max Integer: ", long max int, newline));
+print (("Long Long Max Integer: ", long long max int, newline));
+
+# Even the constants (denotation) may have white space #
+INT a = 1 2 3;
+print (("a=", a, newline));
+LONG INT b = 8888888 8888888 8888888 8888888;
+print (("b=", b, newline))
+
