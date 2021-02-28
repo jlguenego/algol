@@ -24,6 +24,14 @@ $> a68g hello.a68
 Hello World!!!
 ```
 
+## Official Documentation
+
+- https://jmvdveer.home.xs4all.nl/learning-algol-68-genie.pdf
+
+## Participating
+
+- Feel free to participate. Correct any errors. Make suggestions. Create more examples.
+
 ## Author
 
 Jean-Louis GUENEGO <jlguenego@gmail.com>
