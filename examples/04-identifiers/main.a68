@@ -2,6 +2,10 @@
 
 BOOL is it true = TRUE;
 
-print (("Is it true ???", new line, isit true))
+print (("Is it true ???", new line, isit true));
 
 # I am shocked ;o)))) #
+
+
+# Here is a predefined identifer: maxint #
+print (("Max Integer: ", maxint, " ", max int, " ", m a x     i n t))
