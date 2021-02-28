@@ -17,5 +17,7 @@ INT a = 1 2 3;
 print (("a=", a, newline));
 LONG INT b = 8888888 8888888 8888888 8888888;
 print (("b=", b, newline));
+
+# Need the LONG, or LONG LONG keyword if the Algol compiler does not know the mode (type) #
 print (("c=", LONG 281 474 976 710 656))
 
