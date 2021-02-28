@@ -1,4 +1,3 @@
-
 # This is a comment #
 
 
@@ -13,16 +12,29 @@ comment
 
 
 # A mode is a like a type (REAL, INT, BOOL) #
-# Here the constant 3.14 is called a denotation. #
+# Here the constants 3.1416, 15, FALSE, "e" are called a denotation. #
 
-REAL pi = 3.14;
+# basic mode = primitive type #
+REAL pi = 3.1416;
 INT a = 15;
+BOOL isittrue = FALSE;
+CHAR c = "e";
 
 # printf 13a means 13 ascii characters #
 printf(($13a$, "Value of pi: "));
 
 # g means the variable, l means newline. #
-printf (($gl$, pi));
+printf(($gl$, pi));
 
 # g can print any mode #
-printf (($gl$, a))
+printf(($gl$, a));
+
+# g can print any mode #
+# boolean are T or F #
+printf(($ggl$, "Is it true?", isittrue));
+printf(($ggl$, "fifth letter:", c))
+
+
+# To run this program: type
+a68g main.a68
+#
