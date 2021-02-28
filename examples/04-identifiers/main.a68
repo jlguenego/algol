@@ -16,5 +16,6 @@ print (("Long Long Max Integer: ", long long max int, newline));
 INT a = 1 2 3;
 print (("a=", a, newline));
 LONG INT b = 8888888 8888888 8888888 8888888;
-print (("b=", b, newline))
+print (("b=", b, newline));
+print (("c=", LONG 281 474 976 710 656))
 
