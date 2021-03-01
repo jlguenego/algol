@@ -1,0 +1,34 @@
+BEGIN
+    INT n = 3;
+
+    # We iterate n times #
+    TO n
+    # serial-clause to be iterated #
+    DO 
+        print (("Hello", newline))
+    OD
+END;
+INT n = 8;
+print((n, newline));
+BEGIN
+    INT n = 10;
+
+    # We iterate n times #
+    FOR i TO n
+    # serial-clause to be iterated #
+    DO 
+        print ((i, newline))
+    OD
+END;
+
+BEGIN
+    FOR n FROM -10 TO 10
+        DO print ((n, blank))
+    OD
+END;
+
+BEGIN
+    FOR n FROM -10 BY 3 TO 10
+        DO print ((n, blank))
+    OD
+END
