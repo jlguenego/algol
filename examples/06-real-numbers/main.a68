@@ -1,1 +1,12 @@
-print(("the smallest real number is: ", min real, newline))
+print(("min real: ", min real, newline));
+print(("max real: ", max real, newline));
+print(("small real: ", small real, newline));
+print(("1 + small real: ", 1 + small real, newline));
+print(newline);
+print(("long max real: ", long max real, newline));
+print(("long long max real: ", long long max real, newline));
+print(newline);
+print(("long small real: ", long small real, newline));
+print(("long long small real: ", long long small real, newline));
+
+print
