@@ -4,6 +4,9 @@ print (("Multiplication (a*b)=c", newline));
 print (("Please enter a: "));
 INT a = read int;
 print (("Please enter b: "));
-INT b = read int;
-INT c = a * b;
+# Here the number will be REAL but because we 
+read an integer, the decimal will not be remembered #
+REAL b = read int;
+
+REAL c = a * b;
 print (("The result c is:", c, newline))
