@@ -26,7 +26,7 @@ Hello World!!!
 
 ## Impressive things
 
-Algol is not very in used today, but do you know a language that can do easier?
+Algol is not very in used today, but do you know a language that can do what follows in an easier way?
 
 ### Pi decimal calculation
 
