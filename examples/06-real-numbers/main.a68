@@ -1,0 +1,1 @@
+print(("the smallest real number is: ", min real, newline))

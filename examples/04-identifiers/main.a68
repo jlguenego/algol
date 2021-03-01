@@ -13,6 +13,10 @@ print (("Is it also true ???", new line, isitalsotrue, new line));
 
 # I am shocked ;o)))) #
 
+# We can declare at same time many identifiers #
+INT i = 3, j = 5;
+print (("i=", i, newline, "j=", j, newline));
+
 
 # Here is a predefined identifer: maxint #
 print (("Max Integer: ", maxint, " ", max int, " ", m a x     i n t, newline));
