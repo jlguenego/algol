@@ -24,6 +24,10 @@ $> a68g hello.a68
 Hello World!!!
 ```
 
+## Other examples
+
+To continue, [go to see all the examples](./examples).
+
 ## Bibliography
 
 - https://jmvdveer.home.xs4all.nl/learning-algol-68-genie.pdf
