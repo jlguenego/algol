@@ -1,0 +1,17 @@
+# Warning the division is % and the module is MOD #
+
+INT a = 7 % 3;
+INT b = 7 MOD 3;
+print(("a=", a, newline));
+print(("b=", b, newline));
+
+INT c = (2+3)*4;
+print(("c=", c, newline));
+
+# ( is BEGIN and ) is END #
+INT d = BEGIN 2+3 END * 4;
+print(("d=", d, newline));
+
+
+
+print
