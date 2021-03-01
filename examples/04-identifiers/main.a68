@@ -1,8 +1,15 @@
-# Identifiers may have white space inside the name !!! #
+# Identifiers may have white space and tab inside the name !!! They are ignored. #
+# Identifiers must start by a minuscule letter. #
+# Identifiers can be followed by minuscule letters and digits and underscore. #
+# Identifiers cannot end with underscore. #
 
 BOOL is it true = TRUE;
+BOOLisitalsotrue=TRUE;
+
+INT a_b = 1234;
 
 print (("Is it true ???", new line, isit true, new line));
+print (("Is it also true ???", new line, isitalsotrue, new line));
 
 # I am shocked ;o)))) #
 
