@@ -24,6 +24,20 @@ $> a68g hello.a68
 Hello World!!!
 ```
 
+## Impressive things
+
+Algol is not very in used today, but do you know a language that can do easier?
+
+### Pi decimal calculation
+
+You want to calculate pi with a lot of precision? Just do:
+
+```
+a68g -p "long long pi" --precision=1000
+```
+
+Just replace 1000 with 10000 or more!
+
 ## Other examples
 
 To continue, [go to see all the examples](./examples).

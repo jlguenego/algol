@@ -9,4 +9,12 @@ print(newline);
 print(("long small real: ", long small real, newline));
 print(("long long small real: ", long long small real, newline));
 
+REAL a = 0.5;
+REAL b = .7;
+REAL c = 1e3;
+
+print(("a: ", a, newline));
+print(("b: ", b, newline));
+print(("c: ", c, newline));
+
 print
