@@ -1,0 +1,9 @@
+
+
+print (("Multiplication (a*b)=c", newline));
+print (("Please enter a:"));
+INT a = read int;
+print (("Please enter b:"));
+INT b = read int;
+INT c = a * b;
+print (("The result c is:", c, newline))
