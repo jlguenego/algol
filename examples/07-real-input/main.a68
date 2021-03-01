@@ -1,0 +1,8 @@
+print ("Enter a real number: ");
+REAL a = read real;
+print (("You have entered: ", a, newline));
+
+print ("Enter an integer and give you its successor: ");
+print (read int + 1);
+
+print
