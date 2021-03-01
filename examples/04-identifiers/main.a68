@@ -22,5 +22,8 @@ print (("b=", b, newline));
 print (("c=", LONG 281 474 976 710 656, newline));
 
 # If you print only one thing, you do not need (()), but only () #
-print (LONG 281 474 976 710 657)
+print (LONG 281 474 976 710 657);
+
+# You can talk about long long integer like this: #
+print ((newline, LONG LONG 3930061525912861057173624287137506221892737197425280369698987, newline))
 
