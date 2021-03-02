@@ -1,0 +1,67 @@
+# TYPE name = value #
+
+BOOL b = TRUE;
+print (("Is it true ?", newline, b, newline));
+
+# blank inside identifier name are automatically ignored. #
+BOOL isittrue = TRUE;
+
+print (("Is it true ?", newline, is it true, n e w    l i n e));
+
+#
+Underscore can be used but not as a prefix or suffix.
+_a or a_ are wrong
+#
+INT my_first_integer = 42;
+print (("6*7=", my_first_integer, newline));
+
+#
+Only lowercase is authorized in identifiers.
+Uppercase are forbidden.
+Example: HELLO or Hello or hEllO are forbidden
+
+Digit are allowed but not as prefix.
+#
+
+REAL a1 = 1.56;
+print (("a1=", a1, newline));
+
+# We can declare at same time many identifiers #
+INT i = 3, j = 5;
+print (("i=", i, newline, "j=", j, newline));
+
+# We can declare LONG or LONG LONG identifiers. #
+LONG INT long = 1234568901234567890123456890;
+LONG LONG INT verylong = 12345689012345678901234568901234568901234567890123456890;
+
+print (("long=", long, newline));
+print (("verylong=", very long, newline));
+
+# We have some predifined constant for integer: #
+print (("Max Integer: ", maxint, newline));
+print (("Long Max Integer: ", long max int, newline));
+print (("Long Long Max Integer: ", long long max int, newline));
+
+# Like the identifiers, the constants (also called denotation) may have white space #
+INT a3 = 1 2 3;
+print (("a3=", a3, newline));
+LONG INT b8 = 8888888 8888888 8888888 8888888;
+print (("b8=", b8, newline));
+
+# Need the LONG, or LONG LONG keyword if the Algol compiler does not know the mode (type) #
+print (("mylong=", LONG 281 474 976 710 656, newline));
+
+# CHAR #
+CHAR c = "c";
+print (("c=", c, newline));
+
+# blank predefined constant (type char) #
+print (("blank=|", blank, "|", newline));
+
+# max number of ascii character: #
+print (("max=", maxabschar, newline));
+
+CHAR nl = REPR 10;
+print (("go to next line", nl, "yes."));
+
+print
