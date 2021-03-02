@@ -1,0 +1,2 @@
+COMPLEX z = (1, 2);
+print(("z=", z, newline));

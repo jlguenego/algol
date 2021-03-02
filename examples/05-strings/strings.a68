@@ -1,0 +1,28 @@
+# in Algol, array are called "rows" #
+# A string is in fact a [] CHAR, ie an array of character #
+
+# Array length is optional #
+[] CHAR str = "Hello World";
+print((str, newline));
+
+# Very long string can be splitted with \ #
+
+pr\
+int("Hello\
+ World!");
+
+# Retrieve the ASCII number of a given char #
+CHAR a = "A";
+INT n = ABS a;
+# ASCII(A)=65#
+print(("n=", n, newline));
+
+# Repeat n times a string #
+[] CHAR s = "hello" * 5;
+print(("s=", s, newline));
+
+# Concatenation #
+[] CHAR h = "hello " + "world.";
+print(("h=", h, newline));
+
+print

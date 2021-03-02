@@ -64,4 +64,11 @@ print (("max=", maxabschar, newline));
 CHAR nl = REPR 10;
 print (("go to next line", nl, "yes."));
 
+# Unfortunately an identifier cannot be modified. We need "name" (or variable) #
+INT q = 1;
+print (("q=", q, newline));
+q = 22;
+print (("q=", q, newline));
+
+
 print
