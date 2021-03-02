@@ -1,0 +1,10 @@
+# There is 3 ways to comment in ALGOL #
+
+COMMENT First way COMMENT
+CO Second way CO
+# Third way #
+
+# All comments
+ are multiline #
+
+print ("It is nice to comment.")
