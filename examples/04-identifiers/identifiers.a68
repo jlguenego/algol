@@ -38,7 +38,7 @@ print (("long=", long, newline));
 print (("verylong=", very long, newline));
 
 # We have some predifined constant for integer: #
-print (("Max Integer: ", maxint, newline));
+print (("Max Integer: ", max int, newline));
 print (("Long Max Integer: ", long max int, newline));
 print (("Long Long Max Integer: ", long long max int, newline));
 
