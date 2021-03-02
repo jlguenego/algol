@@ -67,7 +67,7 @@ print (("go to next line", nl, "yes."));
 # Unfortunately an identifier cannot be modified. We need "name" (or variable) #
 INT q = 1;
 print (("q=", q, newline));
-q = 22;
+q = 22; # do not change the value... but do not throw an error. #
 print (("q=", q, newline));
 
 
