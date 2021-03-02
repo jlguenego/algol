@@ -22,4 +22,16 @@ END;
 
 print (("sum(b)=", sum(b), newline));
 
+# recursion #
+PROC factorial = (INT a) INT:
+BEGIN
+    IF a = 0
+    THEN 1
+    ELSE factorial(a - 1) * a
+    FI
+END;
+
+print (("factorial(5)=", factorial(5), newline));
+
+
 print
