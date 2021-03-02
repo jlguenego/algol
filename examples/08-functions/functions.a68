@@ -1,0 +1,6 @@
+PROC ([] INT) INT sum = ([] INT a) INT:
+BEGIN INT sum := 0;
+FOR i FROM LWB a TO UPB a
+DO sum +:= a[i] OD;
+sum
+END

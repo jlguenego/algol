@@ -1,0 +1,6 @@
+[] INT a = (1,4,8,6,3);
+
+print (("a=", a, newline));
+
+# index starts at 1 #
+print (("a[3]=", a[3], newline));
