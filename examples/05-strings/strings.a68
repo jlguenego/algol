@@ -25,4 +25,5 @@ print(("s=", s, newline));
 [] CHAR h = "hello " + "world.";
 print(("h=", h, newline));
 
+# last instruction (to avoid problem with the ';') #
 print

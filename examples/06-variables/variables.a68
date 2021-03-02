@@ -1,0 +1,8 @@
+# Variable are like pointers in C #
+# Note we do not use = but := #
+INT a := 1;
+print (("a=", a, newline));
+a := 2;
+print (("a=", a, newline));
+
+print
