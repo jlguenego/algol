@@ -1,6 +1,25 @@
-PROC ([] INT) INT sum = ([] INT a) INT:
-BEGIN INT sum := 0;
-FOR i FROM LWB a TO UPB a
-DO sum +:= a[i] OD;
-sum
-END
+# Define a function (called procedure or routine) #
+PROC dist = (REAL a, REAL b) REAL:
+BEGIN
+    REAL a2 = a*a;
+    REAL b2 = b*b;
+    REAL result = sqrt(a2+b2);
+    result
+END;
+
+print (("dist(3,4)=", dist(3,4), newline));
+
+# variadic arguments #
+PROC sum = ([] INT a) INT:
+BEGIN
+    INT sum := 0;
+    FOR i FROM LWB a TO UPB a
+    DO sum +:= a[i] OD;
+    sum
+END;
+
+[] INT b = (2,5,7);
+
+print (("sum(b)=", sum(b), newline));
+
+print
